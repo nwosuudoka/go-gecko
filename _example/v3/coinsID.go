@@ -7,6 +7,7 @@ import (
 	gecko "github.com/nwosuudoka/go-gecko/v3"
 )
 
+// this is an example querying dogecoin
 func main() {
 	cg := gecko.NewClient(nil)
 	coin, err := cg.CoinsID("dogecoin", true, true, true, true, true, true)
